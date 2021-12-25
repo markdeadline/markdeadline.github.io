@@ -244,6 +244,19 @@
 
           
           
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
           <li>
             <a href="/archive/">
               
@@ -252,8 +265,6 @@
               
             </a>
           </li>
-          
-          
           
           
           
@@ -272,17 +283,6 @@
             <a href="/tags/">
               
               标签
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/about/">
-              
-              关于
               
               
             </a>
@@ -499,8 +499,7 @@
 <p>由 <a target="_blank" rel="noopener" href="https://v-vincen.github.io/">Vincent</a> 创建的 LiveMyLife 的主题修改来源 <a target="_blank" rel="noopener" href="https://github.com/YenYuHsuan/hexo-theme-beantech">YenYuHsuan</a>，参考主题 <a target="_blank" rel="noopener" href="https://github.com/dusign/hexo-theme-snail">dusign</a>、<a target="_blank" rel="noopener" href="https://github.com/shixiaohu2206/hexo-theme-huhu">Utone</a>，感谢 <a target="_blank" rel="noopener" href="https://github.com/dusign/hexo-theme-snail">dusign</a>、<a target="_blank" rel="noopener" href="https://github.com/shixiaohu2206/hexo-theme-huhu">Utone</a>。</p>
 </blockquote>
 <h2 id="仓库">仓库</h2>
-<p>Github 仓库地址：<a target="_blank" rel="noopener" href="https://github.com/V-Vincen/hexo-theme-livemylife">https://github.com/V-Vincen/hexo-theme-livemylife</a><br>
-Gitee 仓库地址：<a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/hexo-theme-livemylife">https://gitee.com/V_Vincen/hexo-theme-livemylife</a></p>
+<p>Github 仓库地址：<a target="_blank" rel="noopener" href="https://github.com/markdeadline/markdeadline.github.io">https://github.com/markdeadline/markdeadline.github.io</a></p>
 <h3 id="预览-LiveMyLife-博客-➾"><a target="_blank" rel="noopener" href="https://v-vincen.github.io/">预览 LiveMyLife 博客 ➾</a></h3>
 <p><img src="livemylife-desktop.png" alt="LiveMyLife Desktop"></p>
 <h2 id="快速开始">快速开始</h2>
@@ -525,7 +524,7 @@ Gitee 仓库地址：<a target="_blank" rel="noopener" href="https://gitee.com/V
 </blockquote>
 <h2 id="主题使用">主题使用</h2>
 <h3 id="初始化">初始化</h3>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd blog</span><br><span class="line">rm -rf scaffolds source themes _config.landscape.yml _config.yml package.json yarn.lock #just keep node_modules</span><br><span class="line">git clone https://github.com/V-Vincen/hexo-theme-livemylife.git</span><br><span class="line">mv hexo-theme-livemylife/* ./</span><br><span class="line">rm -rf hexo-theme-livemylife</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd blog</span><br><span class="line">rm -rf scaffolds source themes _config.landscape.yml _config.yml package.json yarn.lock #just keep node_modules</span><br><span class="line">git clone git@github.com:markdeadline/markdeadline.github.io.git</span><br><span class="line">mv hexo-theme-livemylife/* ./</span><br><span class="line">rm -rf hexo-theme-livemylife</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 <h3 id="设置主题">设置主题</h3>
 <p>修改 <code>theme</code> 属性值，在 <code>_config.yml</code> 配置文件中。</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">livemylife</span></span><br></pre></td></tr></table></figure>
@@ -655,7 +654,7 @@ Gitee 仓库地址：<a target="_blank" rel="noopener" href="https://gitee.com/V
 <h2 id="Hexo-常用命令">Hexo 常用命令</h2>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;&lt;post name&gt;&quot;</span>   <span class="comment"># you can change post to another layout if you want</span></span><br><span class="line">hexo clean &amp;&amp; hexo generate   <span class="comment"># generate the static file</span></span><br><span class="line">hexo server   <span class="comment"># run hexo in local environment</span></span><br><span class="line">hexo deploy   <span class="comment"># hexo will push the static files automatically into the specific branch(gh-pages) of your repo!</span></span><br></pre></td></tr></table></figure>
 <h2 id="有一个好的体验">有一个好的体验 ^_^</h2>
-<p>如果你喜欢该主题，请 <a target="_blank" rel="noopener" href="https://github.com/V-Vincen/hexo-theme-livemylife">Star</a>！不胜感激你的 <a target="_blank" rel="noopener" href="https://github.com/V-Vincen">Follow</a>！比心！</p>
+<p>如果你喜欢该主题，请 <a target="_blank" rel="noopener" href="https://github.com/markdeadline/markdeadline.github.io">Star</a>！不胜感激你的 <a target="_blank" rel="noopener" href="https://github.com/markdeadline">Follow</a>！比心！</p>
 
 
         <hr>
@@ -939,7 +938,7 @@ Gitee 仓库地址：<a target="_blank" rel="noopener" href="https://gitee.com/V
 
           
             <li>
-              <a target="_blank" href="https://www.zhihu.com/people/Sheldon无误">
+              <a target="_blank" href="https://www.zhihu.com/people/xie-xing-xing-97-18">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa  fa-stack-1x fa-inverse">知</i>
