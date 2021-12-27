@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite-url/undefined/%E9%9A%8F%E7%AC%94/</loc>
+    
+    <lastmod>2021-12-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite-url/tags/index.html</loc>
+    
+    <lastmod>2021-12-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite-url/categories/index.html</loc>
     
     <lastmod>2021-12-25</lastmod>
@@ -10,13 +24,6 @@
   
   <url>
     <loc>http://yoursite-url/404.html</loc>
-    
-    <lastmod>2021-12-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite-url/tags/index.html</loc>
     
     <lastmod>2021-12-24</lastmod>
     
@@ -37,23 +44,23 @@
   </url>
   
   <url>
-    <loc>http://yoursite-url/about/index.html</loc>
-    
-    <lastmod>2020-12-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
     
-    <lastmod>2020-04-16</lastmod>
+    <lastmod>2021-12-16</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife/</loc>
     
-    <lastmod>2020-04-16</lastmod>
+    <lastmod>2021-12-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite-url/about/index.html</loc>
+    
+    <lastmod>2020-12-20</lastmod>
     
   </url>
   
@@ -67,7 +74,7 @@
 
   <url>
     <loc>http://yoursite-url/</loc>
-    <lastmod>2021-12-25</lastmod>
+    <lastmod>2021-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +82,7 @@
   
   <url>
     <loc>http://yoursite-url/tags/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2021-12-25</lastmod>
+    <lastmod>2021-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -84,7 +91,7 @@
   
   <url>
     <loc>http://yoursite-url/categories/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2021-12-25</lastmod>
+    <lastmod>2021-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
